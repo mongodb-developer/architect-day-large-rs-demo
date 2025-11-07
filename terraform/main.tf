@@ -95,7 +95,7 @@ data "mongodbatlas_advanced_cluster" "conn_strings" {
 
 locals {
   effective_mongodb_uri = try(
-    data.mongodbatlas_advanced_cluster.conn_strings.connection_strings[0].standard_srv,
+    data.mongodbatlas_advanced_cluster.conn_strings.connection_strings.standard_srv,
     ""
   )
 }
