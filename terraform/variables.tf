@@ -29,8 +29,8 @@ variable "cluster_backup_enabled" {
 
 variable "mongo_db_major_version" {
   type        = string
-  description = "MongoDB major version for the advanced cluster (e.g. 7.0, 6.0)."
-  default     = "7.0"
+  description = "MongoDB major version for the advanced cluster (e.g. 9.0, 8.0)."
+  default     = "8.0"
 }
 
 
