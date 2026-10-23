@@ -17,7 +17,7 @@ variable "cluster_name" {
 variable "cluster_instance_size" {
   type        = string
   description = "Atlas instance size (e.g. M10, M30). Use M30+ for multi-region replica sets."
-  default     = "M30"
+  default     = "M10"
 
 }
 
